@@ -18,9 +18,9 @@ Ao cumprir esses objetivos, o software proposto será capaz de atender às neces
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Segundo pesquisas da MSD( Merck & Co.) Apenas cerca de metade das pessoas que saem de uma consulta médica tomam o medicamento conforme prescrito. Dentre as diversas justificativas que as pessoas dão para não aderirem ao tratamento, o esquecimento é a mais comum. Estima-se que a não aderência resulte em 125.000 mortes por doenças cardiovasculares (como ataque cardíaco ou acidente vascular cerebral) a cada ano. Além disso, acredita-se que até 23% das internações em casas de repouso, 10% das internações hospitalares e muitas consultas médicas, exames diagnósticos e tratamentos desnecessários poderiam ser evitados se as pessoas lembrassem de tomar seus medicamentos conforme orientação médica. 
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Diante disto, constata-se que desenvolver uma aplicação de entrega de medicamentos rotineiros separados por horário, pode levar a uma adesão mais consistente e melhor eficácia dos tratamentos, resultando em melhores resultados de saúde. 
 
 
 ## Público-Alvo

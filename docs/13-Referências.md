@@ -1,7 +1,7 @@
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
+A lista a seguir traz as referências utilizadas nesse trabalho. são elas: 
+
 
 > **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+> -   S. Lynch,Shalini. Aderência ao tratamento medicamentoso.MSD,2022. Disponível em: [https://www.msdmanuals.com/pt-br/casa/medicamentos/fatores-que-afetam-a-resposta-medicamentosa/ader%C3%AAncia-ao-tratamento-medicamentoso](https://www.msdmanuals.com/pt-br/casa/medicamentos/fatores-que-afetam-a-resposta-medicamentosa/ader%C3%AAncia-ao-tratamento-medicamentoso)
