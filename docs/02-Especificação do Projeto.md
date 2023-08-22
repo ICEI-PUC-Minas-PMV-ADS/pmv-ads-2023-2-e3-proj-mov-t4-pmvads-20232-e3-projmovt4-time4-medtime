@@ -5,6 +5,8 @@
 <img src="img/persona_marina.png"><br><br>
 <img src="img/persona_samira.png"><br><br>
 <img src="img/persona_anasilva.jpeg"><br><br>
+<img src="img/Persona Larissa.png"><br><br>
+<img src="img/Persona Marta.png"><br><br>
 
 ## Histórias de Usuários
 
