@@ -7,19 +7,15 @@ O esquecimento é uma das principais razões pelas quais muitas pessoas não con
 Diante disso, torna-se essencial que existam soluções eficazes para auxiliar os pacientes, a aderirem de maneira consistente aos seus regimes de tratamento. 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
+Com as farmácias valorando os medicamentos com diversas variações de valores, a falta de tempo para ir à farmácia a cada vez que acaba a medicação, não lembrar o horário de tomar os remédios, ingestão de medicamentos trocados ou fora do prazo de validade, esses são alguns problemas que enfrentamos todos os dias. Minha mãe tem Alzheimer, foi recentemente diagnosticada, sofremos muito ao descobrir a doença, mas a maior dificuldade foi organizar as medicações dela e do meu pai, porque ela não sabia quais medicamentos tomava, que horas tomava, quais medicações eram dela e do meu pai, quais remédios estavam acabando e até mesmo se ela tinha ou não a necessidade de tomar o remédio que estava tomando. 
 
 ## Objetivos
 
 O objetivo principal deste trabalho é desenvolver um software inovador que aborde os desafios enfrentados no acesso, administração e adesão adequada a medicamentos, especialmente focado em pacientes com necessidades complexas de tratamento, como idosos e pessoas com condições médicas crônicas, como Alzheimer. Esse software buscará facilitar a organização, o gerenciamento e o acompanhamento dos regimes de tratamento medicamentoso, contribuindo assim para melhorar a qualidade de vida dos pacientes e reduzir os riscos associados à não adesão. 
  
-
 Ao cumprir esses objetivos, o software proposto será capaz de atender às necessidades identificadas, melhorando significativamente a gestão de medicamentos para pacientes e cuidadores, resultando em uma maior adesão ao tratamento e, consequentemente, melhorando a qualidade de vida dos pacientes. 
+
 ## Justificativa
 
 Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
@@ -29,8 +25,4 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
+O público-alvo de nosso projeto abrange uma variedade de indivíduos que dependem de tratamentos medicamentosos regulares. Isso inclui pacientes com doenças crônicas, idosos que precisam gerenciar múltiplos medicamentos em horários específicos, famílias cuidadoras que acompanham a medicação de crianças ou idosos, pessoas com mobilidade reduzida e pessoas com estilos de vida agitados que podem enfrentar dificuldades para lembrar os horários de medicação ou até mesmo comprar esses medicamentos nas farmácias. 
