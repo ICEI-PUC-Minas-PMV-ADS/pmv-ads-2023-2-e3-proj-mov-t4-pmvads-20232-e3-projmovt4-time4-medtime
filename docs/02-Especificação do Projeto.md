@@ -2,8 +2,8 @@
 
 ## Personas
 
-<img src="img/persona_marina.png"><br><br>
-<img src="img/persona_samira.png"><br><br>
+<img src="img/persona_marina_alves.png"><br><br>
+<img src="img/persona_samira_santana.png"><br><br>
 <img src="img/persona_anasilva.jpeg"><br><br>
 <img src="img/Persona_Larissa.png"><br><br>
 <img src="img/Persona_Marta.png"><br><br>
