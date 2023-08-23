@@ -12,6 +12,20 @@ Para isso será utilizado o React Native para desenvolver o aplicativo no front 
 <img src="img/Persona_Larissa.png"><br><br>
 <img src="img/Persona_Marta.png"><br><br>
 
+
+
+<h2> Juliana Rodrigues </h2>
+<img src="img/JulianaRodrigues.jpg" width="600px" align="center"/>
+
+
+|  |                                                                                                                    |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| História: Estudante e estagiária, enfrenta diariamente uma rotina com prazos apertados e muitas atividades a serem desenvolvidas e agora também o desafio de cuidar de seus pais idosos, que têm múltiplas condições de saúde, assumindo a responsabilidade de administrar os medicamentos e consultas médicas de seus pais. <br> Juliana se sente sobrecarregada tentando equilibrar suas responsabilidades no trabalho, estudos e com o cuidado de seus pais. | Idade: 22 anos.                                                                                                                     |
+| Motivações: Aliada à tecnologia Juliana procura uma ferramenta que ofereça lembretes precisos para os horários de administração de medicamentos, mas que também forneça informações sobre os remédios prescritos.  Além disso, Juliana tem como objetivo encontrar um aplicativo que ofereça a conveniência de entrega dos medicamentos diretamente em sua casa, eliminando a necessidade de deslocamentos extras à farmácia.                                   | Aplicativos: <br> - Instagram,  <br> - WhatsApp,  <br> - TikTok.                                                                    |
+| Frustrações:  <br> - Dificuldade em acompanhar os horários de medicamentos e consultas médicas de ambos os pais.  <br> - Preocupação constante com a saúde e bem-estar deles.   <br> - Desafio em manter um equilíbrio entre o trabalho, estudo, o cuidado dos pais e o próprio tempo.   <br> - Falta de tempo para buscar medicamentos na farmácia.                                                                                                            | Hobbies, História:  <br> - Criar memórias e experiência com a família.  <br> - Fotografia.  <br> - Exercício físico, ioga e dança.  |
+
+<br><br>
+
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
