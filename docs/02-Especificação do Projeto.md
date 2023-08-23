@@ -1,5 +1,9 @@
 # Especificações do Projeto
 
+A proposta é criar um aplicativo que ajude as pessoas que utilizam medicamentos rotineiros, a pagar o melhor valor pelo medicamento e o mesmo ser entregue em sua residência, antes de acabar, evitando a interrupção do tratamento, sem a necessidade de ficar nas filas da farmácia, os medicamentos virão separados por dose e horário de consumo, com a opção de o usuário receber os alarmes em seu smartphone avisando o horário da medicação. 
+
+Para isso será utilizado o React Native para desenvolver o aplicativo no front e para banco de dados o Firebase.
+
 ## Personas
 
 <img src="img/persona_marina_alves.png"><br><br>
