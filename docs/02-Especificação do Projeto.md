@@ -119,12 +119,25 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Matriz de Rastreabilidade
 
-A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
+<img src="img/MatrizRastreabilidade.jpeg"><br><br>
 
-A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
-
-![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
-
+| Requisito | Descrição                             | Prioridade | Casos de Uso Relacionados |
+|-----------|---------------------------------------|------------|--------------------------|
+| RF-01     | Cadastro de Usuários                  | Alta       | UC-01, UC-02             |
+| RF-02     | Tela de Login                         | Alta       | UC-01                    |
+| RF-03     | Notificações Push                     | Média      | UC-03                    |
+| RF-04     | Edição de Perfil                      | Média      | UC-04                    |
+| RF-05     | Tab Bar Intuitiva                     | Média      | UC-05                    |
+| RF-06     | Comunicação com Cuidadores            | Média      | UC-06                    |
+| RF-07     | Anexar Fotos de Receitas              | Alta       | UC-07                    |
+| RF-08     | Suporte ao Usuário                    | Média      | UC-08                    |
+| RNF-01    | Compatibilidade com Android e iOS    | Alta       | -                        |
+| RNF-02    | Tamanho de Tela e Resolução           | Alta       | -                        |
+| RNF-03    | Legibilidade de Elementos             | Alta       | -                        |
+| RNF-04    | Conexões Wi-Fi e Móveis               | Média      | -                        |
+| RE-01     | Prazo de Entrega                      | Alta       | -                        |
+| RE-02     | Idioma do Aplicativo                  | Alta       | -                        |
+| RE-03     | Não Publicação em Plataformas         | -          | -                        |
 
 
 # Gerenciamento de Projeto
