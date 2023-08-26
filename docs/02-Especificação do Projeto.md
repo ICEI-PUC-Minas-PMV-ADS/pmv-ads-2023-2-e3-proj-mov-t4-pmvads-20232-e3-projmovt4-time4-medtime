@@ -154,7 +154,7 @@ O gerenciamento adequado de tarefas contribuirá para que o projeto alcance alto
 
 O quadro kanban do grupo no Trello está disponível atualizado através da URL [https://trello.com/b/IPkwHZDe/projeto-aplica%C3%A7%C3%A3o-m%C3%B3vel] e é apresentado abaixo:
 <br><br>
-<img src="img/trello.png"><br><br>
+<img src="img/trelo.png"><br><br>
 
 
 ## Gestão de Orçamento
