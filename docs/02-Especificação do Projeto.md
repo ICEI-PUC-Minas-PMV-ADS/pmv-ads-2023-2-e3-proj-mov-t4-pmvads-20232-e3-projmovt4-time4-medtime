@@ -191,4 +191,4 @@ O quadro kanban atualizado do grupo no Trello está disponível através da URL 
 
 A gestão do orçamento é uma das etapas mais importantes do projeto, nesta fase é calculado todos os gastos que terá no decorrer do projeto, além do lucro que se espera ter com o trabalho que está vendendo, no entanto trata-se de um trabalho minucioso e muito preciso, devido a oscilação de preços a cada dia que se passa. Embora trabalhemos com estimativa, a ideia é enxugar o máximo possível para obter lucro sem que falte algo importante a orçar.  
 
-<img src="Orcamento_Medtime.jpg"><br><br>
+<img src="Orçamento_Medtime.jpg"><br><br>
