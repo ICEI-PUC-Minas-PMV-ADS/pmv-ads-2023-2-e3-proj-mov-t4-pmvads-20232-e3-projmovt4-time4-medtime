@@ -161,12 +161,12 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 A equipe está organizada da seguinte maneira:
 
 - Scrum Master: Mirian Oliveira
--	Equipe de Desenvolvimento Front End
+**Equipe de Desenvolvimento Front End**
 - Leidirene Marques
 - Luana Fernandes
 - Raphael Lima
 - Vanessa Chaves
--	Equipe de Desenvolvimento Back End
+**Equipe de Desenvolvimento Back End**
 - Lucas Rodrigues
 
 
