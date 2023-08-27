@@ -156,16 +156,30 @@ O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utiliz
 
 ## Gerenciamento de Equipe
 
-O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas: 
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.<br>
 
--**Backlog**: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.<br>
--**À fazer**: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.<br>
--**Em andamento**: Quando uma tarefa tiver sido iniciada, ela é movida para cá.<br>
--**Fase de teste**: Checagem de Qualidade. Quando as tarefas são concluídas, eles são movidas para o “CQ”. No final da semana,  revemos essa lista para garantir que tudo saiu perfeito.<br>
--**Concluído**: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.<br>
+A equipe está organizada da seguinte maneira:
+
+- Scrum Master: Mirian Oliveira
+-	Equipe de Desenvolvimento Front End
+- Leidirene Marques
+- Luana Fernandes
+- Raphael Lima
+- Vanessa Chaves
+-	Equipe de Desenvolvimento Back End
+- Lucas Rodrigues
 
 
-O quadro kanban do grupo no Trello está disponível atualizado através da URL [https://trello.com/b/IPkwHZDe/projeto-aplica%C3%A7%C3%A3o-m%C3%B3vel] e é apresentado abaixo:
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas: 
+
+- **Backlog**: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.<br>
+- **À fazer**: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.<br>
+- **Em andamento**: Quando uma tarefa tiver sido iniciada, ela é movida para cá.<br>
+- **Fase de teste**: Checagem de Qualidade. Quando as tarefas são concluídas, eles são movidas para o “CQ”. No final da semana,  revemos essa lista para garantir que tudo saiu perfeito.<br>
+- **Concluído**: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.<br>
+
+
+O quadro kanban atualizado do grupo no Trello está disponível através da URL  [https://trello.com/b/IPkwHZDe/projeto-aplica%C3%A7%C3%A3o-m%C3%B3vel] e é apresentado, no estado atual, na figura abaixo:
 <br><br>
 <img src="img/trelo.png"><br><br>
 
