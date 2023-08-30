@@ -45,13 +45,17 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+A equipe está organizada da seguinte maneira:
 
-Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
-- Scrum Master: Felipe Domingos;
-- Product Owner: Rommel Carneiro;
-- Equipe de Desenvolvimento: Pedro Penna, Pedro Ivo, Rodrigo Richard;
-- Equipe de Design: Simone Nogueira.
+- Product Owner: Mateus Curcino<br>
+- Scrum Master: Mirian Oliveira<br>
+**Equipe de Desenvolvimento Front End**<br>
+- Leidirene Marques
+- Luana Fernandes
+- Raphael Lima
+- Vanessa Chaves<br>
+**Equipe de Desenvolvimento Back End**<br>
+- Lucas Rodrigues
 
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
@@ -60,28 +64,27 @@ Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum 
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Planejamento e Gestáo Ágil de Projetos](https://pucminas.instructure.com/courses/87878/pages/unidade-2-tema-2-utilizacao-de-ferramentas-para-controle-de-versoes-de-software)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards)
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas: 
+
+- **Backlog**: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.<br>
+- **À fazer**: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.<br>
+- **Em andamento**: Quando uma tarefa tiver sido iniciada, ela é movida para cá.<br>
+- **Fase de teste**: Checagem de Qualidade. Quando as tarefas são concluídas, eles são movidas para o “CQ”. No final da semana,  revemos essa lista para garantir que tudo saiu perfeito.<br>
+- **Concluído**: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.<br>
+
+
+O quadro kanban atualizado do grupo no Trello está disponível através da URL  [https://trello.com/b/IPkwHZDe/projeto-aplica%C3%A7%C3%A3o-m%C3%B3vel] e é apresentado, no estado atual, na figura abaixo:
+<br><br>
+<img src="img/trelo.png"><br><br>
+
 
 ### Ferramentas
 
-As ferramentas empregadas no projeto são:
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada abaixo.  
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+* **Repositório de código fonte**: [Github](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t4-pmvads-20232-e3-projmovt4-time4-medtime/blob/main/docs/03-Metodologia.md)
+* **Documentos do projeto**: [One Drive](https://sgapucminasbr-my.sharepoint.com/:w:/r/personal/1402443_sga_pucminas_br/_layouts/15/Doc.aspx?sourcedoc=%7B4246C33D-4044-4EFF-9526-C055F7A6BD38%7D&file=Projeto_3%C2%B0%20semestre.docx&action=default&mobileredirect=true&DefaultItemOpen=1&login_hint=1402443%40sga.pucminas.br&ct=1693362696557&wdOrigin=OFFICECOM-WEB.MAIN.REC&cid=1187fd4b-fdf7-4660-95a6-12722807eefc&wdPreviousSessionSrc=HarmonyWeb&wdPreviousSession=429b0eac-9e10-4b1a-86d9-e1afef0edcd9)
+* **Projeto de Interface e  Wireframes**: [Figma](inserir url)
+* **Gerenciamento do Projeto**: [Trello](https://trello.com/b/IPkwHZDe/projeto-aplica%C3%A7%C3%A3o-m%C3%B3vel)
 
-O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
-
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+A documentação se encontra no Github, ferramente de fácil acesso à toda equipe. A ferramenta de comunicação utilizada permite a equipe verificar quais etapas foram concluidas e quais precisam fazer, além de permitir verificar se a equipe está se desenvolvendo de forma conjunta.

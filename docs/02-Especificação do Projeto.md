@@ -163,6 +163,7 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 
 A equipe está organizada da seguinte maneira:
 
+- Product Owner: Mateus Curcino<br>
 - Scrum Master: Mirian Oliveira<br>
 **Equipe de Desenvolvimento Front End**<br>
 - Leidirene Marques
