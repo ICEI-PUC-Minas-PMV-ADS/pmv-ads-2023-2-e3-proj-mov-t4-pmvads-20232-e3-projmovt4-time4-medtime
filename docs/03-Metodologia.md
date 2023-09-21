@@ -84,7 +84,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 * **Repositório de código fonte**: [Github](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t4-pmvads-20232-e3-projmovt4-time4-medtime/blob/main/docs/03-Metodologia.md)
 * **Documentos do projeto**: [One Drive](https://sgapucminasbr-my.sharepoint.com/:w:/r/personal/1402443_sga_pucminas_br/_layouts/15/Doc.aspx?sourcedoc=%7B4246C33D-4044-4EFF-9526-C055F7A6BD38%7D&file=Projeto_3%C2%B0%20semestre.docx&action=default&mobileredirect=true&DefaultItemOpen=1&login_hint=1402443%40sga.pucminas.br&ct=1693362696557&wdOrigin=OFFICECOM-WEB.MAIN.REC&cid=1187fd4b-fdf7-4660-95a6-12722807eefc&wdPreviousSessionSrc=HarmonyWeb&wdPreviousSession=429b0eac-9e10-4b1a-86d9-e1afef0edcd9)
-* **Projeto de Interface e  Wireframes**: [Figma](inserir url)
+* **Projeto de Interface e  Wireframes**: [Figma](https://www.figma.com/file/6Ww5bZfDqdtbH59JtEdNZ3/MedTime?type=design&node-id=0-1&mode=design&t=bu4oH0fHgjJ6Etjj-0)
 * **Gerenciamento do Projeto**: [Trello](https://trello.com/b/IPkwHZDe/projeto-aplica%C3%A7%C3%A3o-m%C3%B3vel)
 
 A documentação se encontra no Github, ferramente de fácil acesso à toda equipe. A ferramenta de comunicação utilizada permite a equipe verificar quais etapas foram concluidas e quais precisam fazer, além de permitir verificar se a equipe está se desenvolvendo de forma conjunta.
