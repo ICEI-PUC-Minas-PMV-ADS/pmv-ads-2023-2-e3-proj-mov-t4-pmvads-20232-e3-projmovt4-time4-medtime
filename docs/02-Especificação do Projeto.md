@@ -45,7 +45,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ### Análise da Situação Atual
 
-O aplicativo a ser criado pelos desenvolvedores do grupo, trata-se de venda e entrega de medicamentos conforme prescrição médica, entregues de forma personalizada separados por dosagens e horários a serem utilizados. Onde o cliente poderá realizar um orçamentos de todos os medicamentos que utiliza conosco, a equipe realizará o orçamento, para que o cliente após a aprovação receba em sua residencia a medicação a ser utilizada em até 3 dias úteis, será enviada em uma caixa personalizada com os horários das medicações, dosagem, nome e explicação do mesmo.
+O aplicativo a ser criado pelos desenvolvedores do grupo, trata-se de venda e entrega de medicamentos rotineiros conforme prescrição médica, entregues de forma personalizada separados por dosagens e horários a serem utilizados. Onde o cliente poderá realizar um orçamentos de todos os medicamentos que utiliza conosco, a equipe realizará o orçamento, para que o cliente após a aprovação receba em sua residencia a medicação a ser utilizada em até 3 dias úteis, será enviada em uma caixa personalizada com os horários das medicações, dosagem, nome e explicação do mesmo.
 
 ### Descrição Geral da Proposta
 
@@ -94,7 +94,7 @@ Produtos: Medicamentos e Dados do Cliente.
 
 Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
 
-!(img/Modelagem do Fluxo de Processos.png)
+<img src="img/Modelagem do Fluxo de Processos.png"><br><br>
 
 
 ![Processo 1](img/02-bpmn-proc1.png)
