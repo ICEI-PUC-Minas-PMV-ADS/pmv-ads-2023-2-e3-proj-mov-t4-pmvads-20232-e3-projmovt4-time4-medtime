@@ -139,4 +139,4 @@ Os resultados dos testes serão documentados em relatórios de teste que incluir
 ## Aprovação dos Testes
 A aprovação dos testes será baseada na conformidade do aplicativo com os requisitos e critérios estabelecidos neste plano de testes. Qualquer não conformidade será relatada à equipe de desenvolvimento para correção.
 
-Este plano de testes é uma diretriz para garantir a qualidade do aplicativo [Nome do Aplicativo]. Os resultados dos testes serão utilizados para tomar decisões sobre a qualidade do produto e a sua prontidão para ser entregue aos usuários finais.
+Este plano de testes é uma diretriz para garantir a qualidade do aplicativo. Os resultados dos testes serão utilizados para tomar decisões sobre a qualidade do produto e a sua prontidão para ser entregue aos usuários finais.
