@@ -1,5 +1,4 @@
 # Plano de Testes de Usabilidade
-
 ## Objetivo
 O objetivo deste plano de testes é avaliar a usabilidade da interface do usuário da aplicação. Os testes de usabilidade têm como objetivo identificar problemas de usabilidade e fornecer recomendações para melhorar a experiência do usuário.
 
