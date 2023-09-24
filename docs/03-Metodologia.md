@@ -1,45 +1,45 @@
-
 # Metodologia
-
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
 
 ## Relação de Ambientes de Trabalho
 
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito deverá ser apresentada em uma tabela que especifica que detalha Ambiente, Plataforma e Link de Acesso. 
-Nota: Vide documento modelo do estudo de caso "Portal de Notícias" e defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.
+| **Ambiente de Trabalho**                       | **Plataforma**                                                | **Link de Acesso**                                      |
+|----------------------------------------------|---------------------------------------------------------------|--------------------------------------------------------|
+| **1. Repositório de Código Fonte (Git/Github)** | Git para controle de versão e Github para hospedagem do repositório | [Link do Repositório](https://github.com/seuarquivo/repo) |
+| **2. Documentos do Projeto (OneDrive)**         | OneDrive para armazenamento e colaboração em documentos       | [Inserir URL](https://onedrive.live.com/...)           |
+| **3. Projeto de Interface e Wireframes (Figma)** | Figma para design de interface e criação de wireframes        | [Inserir URL](https://www.figma.com/...)                |
+| **4. Esquema de ER (Excalidraw)**               | Excalidraw para criação de esquemas de diagrama de entidade-relacionamento (ER) | [Excalidraw](https://excalidraw.com/)       |
+| **5. Esquema Relacional (Creately)**             | Creately para criação de diagramas de esquema relacional     | [Creately](https://creately.com/pt/home/)               |
+| **6. Diagrama de Classe (Creately)**             | Creately para criação de diagramas de classe                 | [Creately](https://creately.com/pt/home/)               |
+| **7. Banco de Dados (SQLite no Dbeaver)**        | Dbeaver com o banco de dados SQLite para desenvolvimento e gerenciamento do banco de dados do projeto | N/A                    |
+| **8. Mapeamento de Modelagem (Heflo)**           | Heflo para mapeamento de modelagem                           | [Heflo](https://www.heflo.com/pt-br/software-de-modelagem-de-processos-gratuito/) |
+| **9. Wireframes (Paint)**                       | Paint para criação de wireframes                             | N/A                                                    |
+| **10. 
 
 ## Controle de Versão
 
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
+A ferramenta de controle de versão adotada no projeto foi o [Git](https://git-scm.com/), sendo que o [Github](https://github.com) foi utilizado para hospedagem do repositório. O controle de versão segue as seguintes convenções:
+- **Branches:**
+   1. `main`: Versão estável já testada do software.
+   2. `testing`: Versão em testes do software.
+   3. `dev`: Versão de desenvolvimento do software.
 
-O projeto segue a seguinte convenção para o nome de branches:
+-- O Branch Main guarda o histórico oficial das entregas, já o Branch Dev serve como integração entre todos os branches de funcionalidades.
+-- O Branch Testing sera criado a partir do Branch Dev ao termino de cada ciclo de entregas e será mesclado com a Main, dando inicio ao proximo ciclo de entregas.
 
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
 
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
+- **Gerência de Issues (Etiquetas):**
+   1. `documentation`: Etiqueta para melhorias ou acréscimos à documentação.
+   2. `bug`: Etiqueta para indicar que uma funcionalidade encontra-se com problemas.
+   3. `Hotfix`: Etiqueta para indicar melhorias.
+   4. `feature`: Etiqueta para indicar que uma nova funcionalidade precisa ser introduzida no projeto.
 
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
+ 
+-- Cada funcionalidade deve ter seu próprio branch, e ele deve ser criado a partir do Branch Dev. 
+-- O Hotfix será usado para corrigir rapidamente algum problema em Main, sendo o unico criado apartir de Main e assim que finalizada a correção ele será mesclado e fechado.
+-- Quando uma funcionalidade for concluída, ela é mesclada novamente com o seu branch originario.
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
+Essas convenções ajudam na organização do projeto, permitindo que a equipe acompanhe o progresso das tarefas, identifique problemas e priorize melhorias e novas funcionalidades de maneira eficiente.
 
-> **Links Úteis**:
-> - [Microfundamento: Gerência de Configuração](https://pucminas.instructure.com/courses/87878/)
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
 
 ## Gerenciamento de Projeto
 
@@ -47,20 +47,18 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 A equipe está organizada da seguinte maneira:
 
+**Equipe de Gerenciamento**
 - Product Owner: Mateus Curcino<br>
 - Scrum Master: Mirian Oliveira<br>
-**Equipe de Desenvolvimento Front End**<br>
+  
+**Equipe de Desenvolvimento Front End**
 - Leidirene Marques
 - Luana Fernandes
 - Raphael Lima
 - Vanessa Chaves<br>
-**Equipe de Desenvolvimento Back End**<br>
+  
+**Equipe de Desenvolvimento Back End**
 - Lucas Rodrigues
-
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-> - [Os papéis do Scrum e a verdade sobre cargos nessa técnica](https://www.atlassian.com/br/agile/scrum/roles)
 
 ### Processo
 
@@ -84,7 +82,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 * **Repositório de código fonte**: [Github](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t4-pmvads-20232-e3-projmovt4-time4-medtime/blob/main/docs/03-Metodologia.md)
 * **Documentos do projeto**: [One Drive](https://sgapucminasbr-my.sharepoint.com/:w:/r/personal/1402443_sga_pucminas_br/_layouts/15/Doc.aspx?sourcedoc=%7B4246C33D-4044-4EFF-9526-C055F7A6BD38%7D&file=Projeto_3%C2%B0%20semestre.docx&action=default&mobileredirect=true&DefaultItemOpen=1&login_hint=1402443%40sga.pucminas.br&ct=1693362696557&wdOrigin=OFFICECOM-WEB.MAIN.REC&cid=1187fd4b-fdf7-4660-95a6-12722807eefc&wdPreviousSessionSrc=HarmonyWeb&wdPreviousSession=429b0eac-9e10-4b1a-86d9-e1afef0edcd9)
-* **Projeto de Interface e  Wireframes**: [Figma](https://www.figma.com/file/6Ww5bZfDqdtbH59JtEdNZ3/MedTime?type=design&node-id=0-1&mode=design&t=bu4oH0fHgjJ6Etjj-0)
+* **Projeto de Interface e  Wireframes**: [Figma](inserir url)
 * **Gerenciamento do Projeto**: [Trello](https://trello.com/b/IPkwHZDe/projeto-aplica%C3%A7%C3%A3o-m%C3%B3vel)
 
 A documentação se encontra no Github, ferramente de fácil acesso à toda equipe. A ferramenta de comunicação utilizada permite a equipe verificar quais etapas foram concluidas e quais precisam fazer, além de permitir verificar se a equipe está se desenvolvendo de forma conjunta.
