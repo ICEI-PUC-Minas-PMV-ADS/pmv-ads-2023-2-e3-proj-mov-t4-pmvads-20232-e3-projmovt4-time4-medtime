@@ -45,7 +45,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ### Análise da Situação Atual
 
-O aplicativo a ser criado pelos desenvolvedores do grupo, trata-se de venda e entrega de medicamentos conforme prescrição médica, entregue de forma personalizada separados por dosagem e horário a ser utilizado. Onde o cliente poderá realizar um orçamentos e todos os medicamentos que utiliza conosco, a equipe realizará o orçamento, para que o cliente após a aprovação receba em sua residencia a medicação a ser utilizada em até 3 dias úteis. A medicação será enviada em uma caixa personalizada com os horários das medicações, dosagem, nome e explicação do mesmo.
+O aplicativo a ser criado pelos desenvolvedores do grupo, trata-se de venda e entrega de medicamentos conforme prescrição médica, entregues de forma personalizada separados por dosagens e horários a serem utilizados. Onde o cliente poderá realizar um orçamentos de todos os medicamentos que utiliza conosco, a equipe realizará o orçamento, para que o cliente após a aprovação receba em sua residencia a medicação a ser utilizada em até 3 dias úteis, será enviada em uma caixa personalizada com os horários das medicações, dosagem, nome e explicação do mesmo.
 
 ### Descrição Geral da Proposta
 
@@ -76,6 +76,7 @@ Para evidenciar o processo, afim de obter clareza em como funcioná, realizamos 
 *	O assistente realiza a baixa da entrega e cadastra os alarmes no aplicativo.
 
 #### Elementos de Modelagem de Processos
+
 Eventos Iniciais: Cliente acessa o aplicativo.
 
 Eventos Finais: Orçamento Reprovado, Pedido Cancelado, Medicamento Entregue, Cliente Ausente.
