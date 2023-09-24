@@ -45,15 +45,56 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ### Análise da Situação Atual
 
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
+O aplicativo a ser criado pelos desenvolvedores do grupo, trata-se de venda e entrega de medicamentos conforme prescrição médica, entregue de forma personalizada separados por dosagem e horário a ser utilizado. Onde o cliente poderá realizar um orçamentos e todos os medicamentos que utiliza conosco, a equipe realizará o orçamento, para que o cliente após a aprovação receba em sua residencia a medicação a ser utilizada em até 3 dias úteis. A medicação será enviada em uma caixa personalizada com os horários das medicações, dosagem, nome e explicação do mesmo.
 
 ### Descrição Geral da Proposta
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+Para evidenciar o processo, afim de obter clareza em como funcioná, realizamos a modelagem do processo de negócios, no entanto determinamos algumas etapas como descrição do processo, levantamento dos elementos de modelagem de processos e diagrama de fluxo de processos.
 
-### Processo 1 – NOME DO PROCESSO
+#### Descrição do Processo
+
+* Os clientes acessam o aplicativo e entregam a receita para o assistente recepção;
+
+* O assistente realiza o orçamento com todas as medicações prescritas;
+
+* Neste momento ela envia a receita para o assistente de medicamentos verificar a receita, caso esteja tudo certo ele cadastra a receita para ser avaliado pelo Sistema de Utilização de Drogas (AUD);
+
+* O cliente ao aprovar o orçamento, aguarda a validação da receita, estando tudo certo o mesmo realiza o pagamento e aguarda o envio dos medicamentos em sua residência;
+
+* A receita passa por duas aprovações sendo a primeira no sistema avaliado de Drogas e após a validação do Farmacêutico;
+
+* Após as aprovações o farmacêutico libera as medicações que são encaminhadas para o assistente de medicamentos;
+
+* O assistente separas as medicações em doses e horário, embala e encaminha para nova verificação do farmacêutico;
+
+* Se estiver tudo certo é encaminhado para o motoboy, em caso de erros a medicação retorna para o assistente realizar a correção;
+
+*	O motoboy verifica no sistema se a medicação poderá ser entregue na casa do cliente ou se terá que postar no correio;
+
+*	O motoboy retorna com os protocolos assinados e entrega para o assistente da recepção;
+
+*	O assistente realiza a baixa da entrega e cadastra os alarmes no aplicativo.
+
+#### Elementos de Modelagem de Processos
+Eventos Iniciais: Cliente acessa o aplicativo.
+
+Eventos Finais: Orçamento Reprovado, Pedido Cancelado, Medicamento Entregue, Cliente Ausente.
+
+Atividades: Entregar Receita, Receber Receita, Realizar Orçamento, Devolver Receita, Cadastrar Receita, Realizar Avaliação de Utilização de Drogas, Avaliar Receita, Autorizar Receita, Reprovar Receita, Efetuar Pagamento, Verificar Medicamentos, Informar Cliente, Separar Medicamentos, Verificar Pagamento, Verificar Endereço do Cliente, Enviar pelo Correio, Entregar pelo Motoboy, Assinar Protocolo de Recebimento, Dar Baixa no Sistema e Programar Alarme.
+
+Atores: Cliente, Assistente Recepção, Sistema, Assistente Medicamentos, Farmacêutico e Motoboy.
+
+Insumos: Receita.
+
+Produtos: Medicamentos e Dados do Cliente.
+
+
+### Processo Geral
 
 Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
+
+!(img/Modelagem do Fluxo de Processos.png)
+
 
 ![Processo 1](img/02-bpmn-proc1.png)
 
