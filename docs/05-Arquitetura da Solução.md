@@ -1,9 +1,5 @@
 # Arquitetura da Solução
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
-
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
-
 ![Arquitetura da Solução](img/02-mob-arch.png)
 
 ## Diagrama de Classes
@@ -33,24 +29,45 @@ Apresente também uma figura explicando como as tecnologias estão relacionadas 
 
 Explique como a hospedagem e o lançamento da plataforma foi feita.
 
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+
 
 ## Qualidade de Software
 
-Conceituar qualidade de fato é uma tarefa complexa, mas ela pode ser vista como um método gerencial que através de procedimentos disseminados por toda a organização, busca garantir um produto final que satisfaça às expectativas dos stakeholders.
+A qualidade de software é uma característica fundamental para garantir que um produto atenda às expectativas dos stakeholders e satisfaça as necessidades dos usuários. No contexto de desenvolvimento de software, a qualidade pode ser definida como o conjunto de características que um produto de software deve possuir para ser considerado eficaz, eficiente e satisfatório em seu uso.
 
-No contexto de desenvolvimento de software, qualidade pode ser entendida como um conjunto de características a serem satisfeitas, de modo que o produto de software atenda às necessidades de seus usuários. Entretanto, tal nível de satisfação nem sempre é alcançado de forma espontânea, devendo ser continuamente construído. Assim, a qualidade do produto depende fortemente do seu respectivo processo de desenvolvimento.
+A norma internacional ISO/IEC 25010, que atualiza a ISO/IEC 9126, define oito características de qualidade para produtos de software, cada uma com suas respectivas subcaracterísticas. Essas características e subcaracterísticas são diretrizes valiosas para avaliar e nortear o desenvolvimento de software de alta qualidade.
 
-A norma internacional ISO/IEC 25010, que é uma atualização da ISO/IEC 9126, define oito características e 30 subcaracterísticas de qualidade para produtos de software.
-Com base nessas características e nas respectivas sub-características, identifique as sub-características que sua equipe utilizará como base para nortear o desenvolvimento do projeto de software considerando-se alguns aspectos simples de qualidade. Justifique as subcaracterísticas escolhidas pelo time e elenque as métricas que permitirão a equipe avaliar os objetos de interesse.
+Para o nosso projeto de software, a equipe optou por focar nas seguintes subcaracterísticas de qualidade, com base na ISO/IEC 25010:
 
-> **Links Úteis**:
->
-> - [ISO/IEC 25010:2011 - Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models](https://www.iso.org/standard/35733.html/)
-> - [Análise sobre a ISO 9126 – NBR 13596](https://www.tiespecialistas.com.br/analise-sobre-iso-9126-nbr-13596/)
-> - [Qualidade de Software - Engenharia de Software 29](https://www.devmedia.com.br/qualidade-de-software-engenharia-de-software-29/18209/)
+1. **Eficiência de Desempenho:**
+   - **Subcaracterística Escolhida:** Tempo de Resposta
+   - **Justificação:** O tempo de resposta é crítico para a experiência do usuário, especialmente em aplicativos móveis. Quanto mais rápido o aplicativo responder, melhor será a experiência do usuário.
+   - **Métricas:** Medição do tempo médio de resposta do sistema em situações típicas de uso.
+
+2. **Usabilidade:**
+   - **Subcaracterística Escolhida:** Facilidade de Aprendizado
+   - **Justificação:** Facilitar a aprendizagem do aplicativo é essencial para atrair novos usuários e garantir que eles possam usá-lo com eficácia desde o início.
+   - **Métricas:** Taxa de conclusão de tarefas por novos usuários em um período específico.
+
+3. **Confiabilidade:**
+   - **Subcaracterística Escolhida:** Tolerância a Falhas
+   - **Justificação:** A tolerância a falhas é crucial para garantir que o aplicativo continue funcionando mesmo quando ocorrerem problemas inesperados.
+   - **Métricas:** Número de falhas identificadas e tempo médio entre falhas.
+
+4. **Segurança:**
+   - **Subcaracterística Escolhida:** Controle de Acesso
+   - **Justificação:** O controle de acesso é fundamental para proteger os dados dos usuários e garantir a privacidade.
+   - **Métricas:** Número de tentativas de acesso não autorizado detectadas.
+
+5. **Manutenibilidade:**
+   - **Subcaracterística Escolhida:** Modularidade
+   - **Justificação:** A modularidade facilita a manutenção do código e permite que a equipe de desenvolvimento faça atualizações e correções de maneira mais eficiente.
+   - **Métricas:** Número de módulos independentes e acoplamento entre módulos.
+
+6. **Portabilidade:**
+   - **Subcaracterística Escolhida:** Adaptabilidade
+   - **Justificação:** A adaptabilidade é importante para garantir que o aplicativo possa ser facilmente adaptado a diferentes ambientes e dispositivos.
+   - **Métricas:** Número de plataformas suportadas e facilidade de migração entre plataformas.
+
+Essas subcaracterísticas foram escolhidas pela equipe com base na relevância para o projeto e na prioridade de atender às necessidades dos usuários. As métricas correspondentes serão monitoradas durante o desenvolvimento e testes para garantir que essas subcaracterísticas de qualidade sejam atendidas de maneira satisfatória no produto final.
+
