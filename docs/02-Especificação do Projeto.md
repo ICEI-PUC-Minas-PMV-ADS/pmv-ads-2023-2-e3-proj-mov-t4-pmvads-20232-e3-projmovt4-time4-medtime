@@ -90,20 +90,17 @@ Insumos: Receita.
 Produtos: Medicamentos e Dados do Cliente.
 
 
-### Processo Geral
+### Processo 1 - O CLIENTE SOLICITA O ORÇAMENTO
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
+No "Processo 1" o cliente entra em  contato com nossa equipe, que realizará o orçamento para o mesmo e enviará para o cliente, após a aprovação do cliente, o processo segue o fluxo até o medicamento ser entregue. Apesar de trabalharmos para atender o cliente de forma rápida e eficaz, afim de reter o mesmo a se cadastrar e seguir conosco, o tempo em que o cliente acessa o aplicativo e realiza o orçamento, até a equipe entrar em contato, é um pouco demorado e nesse caso ele pode desistir. Nossa oportunidade de melhoria seria atender de forma mais rápida e efetiva para que o cliente não desista da compra, implantar robôs que fizessem a leitura da receita e gerasse o orçamento no mesmo momento do cadastro da receita, poderá ser uma opção. 
 
 <img src="img/Modelagem do Fluxo de Processos.png"><br><br>
 
+### Processo 2 – O CLIENTE FAZ SEU ORÇAMENTO
 
-![Processo 1](img/02-bpmn-proc1.png)
+No "Processo 2" o cliente entra no aplicativo e realiza seu orçamento, após a realização do pagamento, o processo segue o fluxo até o medicamento ser entregue. Apesar de ser um processo muito mais agil, ele não atende todos os publicos, pois pessoas idosas não são muito familiarizadas com processos eletrônicos e por fim acabam desistindo. Nossa oportunidade de melhoria para este caso seria deixar o site ainda mais intuitivo para não perder esses clientes.
 
-### Processo 2 – NOME DO PROCESSO
-
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
-
-![Processo 2](img/02-bpmn-proc2.png)
+<img src="img/O cliente faz o orçamento.png"><br><br>
 
 ## Indicadores de Desempenho
 
