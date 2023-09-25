@@ -104,12 +104,11 @@ No "Processo 2" o cliente entra no aplicativo e realiza seu orçamento, após a 
 
 ## Indicadores de Desempenho
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
+Os indicadores de desempenho servem para medir se nosso negócio será capaz de atender nossas metas, além de nos fornecer informações para traçar estratégias de negócios para evolução da organização. Inicialmente foram traçados indicadores padrões, porém com o tempo será possível a implantação de novos indicadores a fim de direcionar os processos para obter lucros e rentabilidade para a empresa.
+Indicadores específicos voltado a produtividade, qualidade de atendimento, rentabilidade, faturamento, turn over, entre outros. 
 
-Usar o seguinte modelo: 
-
-![Indicadores de Desempenho](img/02-indic-desemp.png)
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
+<img src="img/Avaliação de Desempenho.jpg"><br><br>
+ 
 
 ## Requisitos
 
