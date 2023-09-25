@@ -1,15 +1,46 @@
 # Programação de Funcionalidades
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
+## Requisitos Funcionais
 
-Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
+### RF-001: Cadastro de Usuários
+- **Artefato de Código:** `cadastro_usuario`
+- **Estruturas de Dados:** Tabela de banco de dados "usuarios"
+- **Instruções para Verificação:**
+  1. Execute o arquivo `cadastro_usuario`.
+  2. Acesse a interface de cadastro no aplicativo.
+  3. Preencha os campos obrigatórios.
+  4. Clique em "Registrar".
+  5. Verifique se os dados do usuário foram armazenados na tabela "usuarios" do banco de dados.
 
-Para cada requisito funcional, pode ser entregue um artefato desse tipo
+### RF-002: Login de Usuários
+- **Artefato de Código:** `login_usuario`
+- **Estruturas de Dados:** Tabela de banco de dados "usuarios"
+- **Instruções para Verificação:**
+  1. Execute o arquivo `login_usuario`.
+  2. Acesse a interface de login no aplicativo.
+  3. Insira o e-mail e senha cadastrados.
+  4. Clique em "Entrar".
+  5. Verifique se o usuário é redirecionado para a tela principal.
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+## Requisitos Não Funcionais
+
+### RNF-001: Compatibilidade com Android e iOS
+- **Artefato de Código:** `compatibilidade_android_ios`
+- **Estruturas de Dados:** N/A
+- **Instruções para Verificação:**
+  1. Execute o arquivo `compatibilidade_android_ios`.
+  2. Instale o aplicativo em um dispositivo Android.
+  3. Verifique se todas as funcionalidades estão disponíveis e funcionais.
+  4. Instale o aplicativo em um dispositivo iOS.
+  5. Verifique se todas as funcionalidades estão disponíveis e funcionais.
+
+### RNF-002: Execução em Diferentes Tamanhos de Tela
+- **Artefato de Código:** `execucao_em_diferentes_tamanhos`
+- **Estruturas de Dados:** N/A
+- **Instruções para Verificação:**
+  1. Execute o arquivo `execucao_em_diferentes_tamanhos`.
+  2. Abra o aplicativo em um dispositivo com tela grande.
+  3. Verifique se a interface se adapta corretamente.
+  4. Abra o aplicativo em um dispositivo com tela pequena.
+  5. Verifique se a interface se adapta corretamente.
+
