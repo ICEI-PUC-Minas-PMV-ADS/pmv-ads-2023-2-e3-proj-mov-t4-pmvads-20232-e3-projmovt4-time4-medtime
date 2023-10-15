@@ -170,7 +170,17 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 
 **Considerações:** O aplicativo superou as expectativas, obtendo um tempo de resposta muito inferior a 5 segundos.
 
+
+
+
 ![d71e3ba9-13be-44bc-b3da-4c32b9027577](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t4-pmvads-20232-e3-projmovt4-time4-medtime/assets/99758232/a73b9e74-44e9-4d58-a824-f7d4a89aa068)
+
+
+
+
+
+
+
 
 
 
