@@ -7,7 +7,15 @@ Os testes serão realizados em suas versões Android e iOS. O escopo inclui a ve
 
 ## Requisitos Funcionais
 
-### RF-001: Cadastro de Usuários
+### RF-001: Visualizar Página Principal
+**Objetivo:** Verificar se todas as abas e ícones estão direcionando para as páginas corretas.
+
+**Passos de Teste:**
+1. Abrir o aplicativo.
+2. Selecionar todas as opções no cabeçalho.
+3. Verificar se o usuário é corretamente direcionado a página escolhida.
+
+### RF-002: Cadastro de Usuários
 **Objetivo:** Verificar se os usuários podem se cadastrar usando e-mail, senha ou conta Google existente.
 
 **Passos de Teste:**
@@ -19,7 +27,7 @@ Os testes serão realizados em suas versões Android e iOS. O escopo inclui a ve
 
 **Resultado Esperado:** O cadastro de usuários deve ser bem-sucedido para todas as opções de registro.
 
-### RF-002: Tela de Login
+### RF-003: Tela de Login
 **Objetivo:** Verificar se os usuários cadastrados têm acesso à tela de login.
 
 **Passos de Teste:**
@@ -31,7 +39,7 @@ Os testes serão realizados em suas versões Android e iOS. O escopo inclui a ve
 
 **Resultado Esperado:** Os usuários cadastrados devem poder fazer login e acessar a tela principal.
 
-### RF-003: Notificações Push
+### RF-004: Notificações Push
 **Objetivo:** Verificar se o aplicativo envia notificações push para atualizar os usuários.
 
 **Passos de Teste:**
@@ -41,7 +49,7 @@ Os testes serão realizados em suas versões Android e iOS. O escopo inclui a ve
 
 **Resultado Esperado:** As notificações push devem ser enviadas e recebidas corretamente.
 
-### RF-004: Edição de Perfil
+### RF-005: Edição de Perfil
 **Objetivo:** Verificar se os usuários podem editar seus perfis.
 
 **Passos de Teste:**
@@ -53,7 +61,7 @@ Os testes serão realizados em suas versões Android e iOS. O escopo inclui a ve
 
 **Resultado Esperado:** Os usuários devem poder editar e salvar as informações do perfil com sucesso.
 
-### RF-005: Tab Bar
+### RF-006: Tab Bar
 **Objetivo:** Verificar se a "tab bar" apresenta todas as funcionalidades do aplicativo.
 
 **Passos de Teste:**
@@ -62,7 +70,7 @@ Os testes serão realizados em suas versões Android e iOS. O escopo inclui a ve
 
 **Resultado Esperado:** A "tab bar" deve exibir todas as funcionalidades do aplicativo.
 
-### RF-006: Seção de Contato com Cuidadores
+### RF-007: Seção de Contato com Cuidadores
 **Objetivo:** Verificar se os usuários podem entrar em contato direto com os cuidadores.
 
 **Passos de Teste:**
@@ -73,7 +81,7 @@ Os testes serão realizados em suas versões Android e iOS. O escopo inclui a ve
 
 **Resultado Esperado:** Os usuários devem poder enviar mensagens e anexar fotos de receitas na seção de contato com cuidadores.
 
-### RF-007: Canal de Suporte
+### RF-008: Canal de Suporte
 **Objetivo:** Verificar se o aplicativo disponibiliza um canal de suporte para os usuários.
 
 **Passos de Teste:**
