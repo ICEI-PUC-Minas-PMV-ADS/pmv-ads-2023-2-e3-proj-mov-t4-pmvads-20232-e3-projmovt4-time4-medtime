@@ -17,15 +17,23 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 **Considerações:** Todos os botões disponibilizados direcionando corretamente. Nota-se apenas a falta do botão "Notificações" no canto superior esquerdo.
 
 - Quem Somos
+
+  
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t4-pmvads-20232-e3-projmovt4-time4-medtime/assets/99758232/07549143-6092-4953-b461-26fb763ce2a4)
 
 - MedTime
+
+  
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t4-pmvads-20232-e3-projmovt4-time4-medtime/assets/99758232/22da5d18-2a3e-409a-b0f7-e5212c61f7f2)
 
 - Novidades
+
+  
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t4-pmvads-20232-e3-projmovt4-time4-medtime/assets/99758232/4f0b2e45-6467-4988-aa6e-bdc1b22c72d1)
 
 - Contatos
+
+  
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t4-pmvads-20232-e3-projmovt4-time4-medtime/assets/99758232/c926c86f-2642-4f25-808e-80f84450b250)
 
 -Login
@@ -160,7 +168,10 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 ### RNF-005: Tempo de Resposta
 **Objetivo:** Verificar se o aplicativo processa requisições do usuário em no máximo 5 segundos.
 
-**Considerações:** 
+**Considerações:** O aplicativo superou as expectativas, obtendo um tempo de resposta muito inferior a 5 segundos.
+
+![d71e3ba9-13be-44bc-b3da-4c32b9027577](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t4-pmvads-20232-e3-projmovt4-time4-medtime/assets/99758232/a73b9e74-44e9-4d58-a824-f7d4a89aa068)
+
 
 
 
