@@ -61,16 +61,8 @@ Os testes serão realizados em suas versões Android e iOS. O escopo inclui a ve
 
 **Resultado Esperado:** Os usuários devem poder editar e salvar as informações do perfil com sucesso.
 
-### RF-006: Tab Bar
-**Objetivo:** Verificar se a "tab bar" apresenta todas as funcionalidades do aplicativo.
 
-**Passos de Teste:**
-1. Abrir o aplicativo.
-2. Verificar se a "tab bar" exibe todas as funcionalidades listadas (login, perfil de usuário, notificações, configurações, favoritos, contato, etc.).
-
-**Resultado Esperado:** A "tab bar" deve exibir todas as funcionalidades do aplicativo.
-
-### RF-007: Seção de Contato com Cuidadores
+### RF-006: Seção de Contato com Cuidadores
 **Objetivo:** Verificar se os usuários podem entrar em contato direto com os cuidadores.
 
 **Passos de Teste:**
@@ -81,7 +73,7 @@ Os testes serão realizados em suas versões Android e iOS. O escopo inclui a ve
 
 **Resultado Esperado:** Os usuários devem poder enviar mensagens e anexar fotos de receitas na seção de contato com cuidadores.
 
-### RF-008: Canal de Suporte
+### RF-007: Canal de Suporte
 **Objetivo:** Verificar se o aplicativo disponibiliza um canal de suporte para os usuários.
 
 **Passos de Teste:**
