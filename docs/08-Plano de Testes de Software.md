@@ -8,7 +8,7 @@ Os testes serão realizados em suas versões Android e iOS. O escopo inclui a ve
 ## Requisitos Funcionais
 
 ### RF-001: Visualizar Página Principal
-**Objetivo:** Verificar se todas as abas e ícones estão direcionando para as páginas corretas.
+**Objetivo:** Verificar se todos os botões estão direcionando para as páginas corretas.
 
 **Passos de Teste:**
 1. Abrir o aplicativo.
