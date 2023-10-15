@@ -87,7 +87,7 @@ Os testes serão realizados em suas versões Android e iOS. O escopo inclui a ve
 ## Requisitos não Funcionais
 
 ### RNF-001: Compatibilidade de Plataforma
-**Objetivo:** Verificar se o aplicativo é compatível com sistemas Android e iOS em suas versões mais recentes.
+**Objetivo:** Verificar se o aplicativo é compatível com a web e com sistemas Android e iOS em suas versões mais recentes.
 
 **Passos de Teste:**
 1. Instalar o aplicativo em um dispositivo Android com a versão mais recente do sistema operacional.
