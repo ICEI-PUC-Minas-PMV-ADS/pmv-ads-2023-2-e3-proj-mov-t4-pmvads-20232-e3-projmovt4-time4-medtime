@@ -120,7 +120,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| O aplicativo deve permitir que os usuários se cadastrem usando e-mail, senha ou conta Google existente. | ALTA | 
 |RF-002| O aplicativo deve fornecer aos usuários cadastrados uma tela de login.    | ALTA |
-|RF-003| O aplicativo deve enviar notificações push para atualizar os usuários.    | MÉDIA |
+|RF-003| O aplicativo deve enviar notificações push para atualizar os usuários.    | BAIXA |
 |RF-004| O aplicativo deve permitir que os usuários editem seus perfis, incluindo nome, foto, informações pessoais e detalhes médicos.   | MÉDIA |
 |RF-005| O aplicativo deve ter uma “tab bar” que apresente todas as suas funcionalidades ao usuário (login, perfil de usuário, notificações, configurações, favoritos, contato, etc).    | MÉDIA |
 |RF-006| O aplicativo deve conceder aos usuários uma seção de contato direto com os cuidadores, onde podem enviar mensagens de texto ou anexar fotos digitalizadas de receitas.    | MÉDIA |
