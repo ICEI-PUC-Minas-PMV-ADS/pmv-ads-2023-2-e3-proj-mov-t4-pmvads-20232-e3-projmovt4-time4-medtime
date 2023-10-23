@@ -1,13 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { View, Text, TextInput, Button, StyleSheet, ScrollView, Image } from 'react-native';
 import Header from './Header';
 import Footer from './Footer';
 import * as ImagePicker from 'expo-image-picker';
 import { getReceita, insertReceita } from './Services/ReceitaServicesDB';
-import {useNavigation} from '@react-navigation/native';
-import {useIsFocused} from '@react-navigation/native';
+import { useNavigation } from '@react-navigation/native';
 
-const Receita = ({ navigation }) => {
+const Receita = () => {
   const [Nome, setNome] = useState('');
   const [CPF, setCPF] = useState('');
   const [CEP, setCEP] = useState('');
@@ -19,21 +18,16 @@ const Receita = ({ navigation }) => {
   const [Email, setEmail] = useState('');
   const [Mensagem, setMensagem] = useState('');
   const [ImagemPath, setImagemPath] = useState(null);
-  
-  const IsFocused = useIsFocused();
+
+  const navigation = useNavigation();
+
   const [Receita, setReceita] = useState([]);
 
   useEffect(() => {
-      getReceita().then((dados)=>{
-        setReceita(dados);
-        
-
-      });
-
-      navegation.goBack();
-
-    },[]);
-  
+    getReceita().then((dados) => {
+      setReceita(dados);
+    });
+  }, []);
 
   // Lógica para enviar os dados do formulário.
   const handleEnviar = () => {
@@ -52,8 +46,7 @@ const Receita = ({ navigation }) => {
       ImagemPath,
     };
 
-  
-     // Simular uma solicitação POST para um servidor fictício
+    // Simular uma solicitação POST para um servidor fictício
     fetch('https://seuservidor.com/enviar-dados', {
       method: 'POST',
       headers: {
@@ -97,12 +90,97 @@ const Receita = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
-      <Header navigation={navigation} />
+      <Header />
       <ScrollView contentContainerStyle={styles.scrollContainer}>
         <Text style={styles.title}>Receita</Text>
+        <Text style={styles.paragraph}>
+          Preencha o formulário abaixo que nossos colaboradores farão o seu orçamento e em breve entrarão em contato!
+          Desde já agradecemos a preferencia em nossos serviços.
+        </Text>
+
         <View style={styles.form}>
-          {/* ... seus campos de entrada */}
-          <Button title="Adicionar imagem" onPress={pickImage} />
+
+        <Text>Nome:</Text>
+        <TextInput
+          value={Nome}
+          onChangeText={(text) => setNome(text)}
+          placeholder="Digite seu nome"
+          style={styles.input}
+          />
+
+        <Text>CPF:</Text>
+         <TextInput
+          value={CPF}
+          onChangeText={(text) => setCPF(text)}
+          placeholder="Digite seu CPF"
+          style={styles.input}
+          />
+
+        <Text>CEP:</Text>
+         <TextInput
+          value={CEP}
+          onChangeText={(text) => setCEP(text)}
+          placeholder="Digite seu CEP"
+          style={styles.input}
+          />
+
+        <Text>Endereco:</Text>
+          <TextInput
+          value={Endereco}
+          onChangeText={(text) => setEndereco(text)}
+          placeholder="Digite seu Endereço e nº da residência"
+          style={styles.input}
+          />
+
+        <Text>Bairro:</Text>
+          <TextInput
+          value={Bairro}
+          onChangeText={(text) => setBairro(text)}
+          placeholder="Digite seu Bairro"
+          style={styles.input}
+          />
+
+        <Text>Cidade:</Text>
+          <TextInput
+          value={Cidade}
+          onChangeText={(text) => setCidade(text)}
+          placeholder="Digite sua Cidade"
+          style={styles.input}
+          />
+
+        <Text>Estado:</Text>
+          <TextInput
+          value={Estado}
+          onChangeText={(text) => setEstado(text)}
+          placeholder="Digite seu Estado"
+          style={styles.input}
+          />
+        
+        <Text>Telefone:</Text>
+          <TextInput
+          value={Telefone}
+          onChangeText={(text) => setTelefone(text)}
+          placeholder="Informe seu Telefone"
+          style={styles.input}
+          />
+
+        <Text>Email:</Text>
+          <TextInput
+          value={Email}
+          onChangeText={(text) => setEmail(text)}
+          placeholder="Digite seu E-mail"
+          style={styles.input}
+          />
+
+        <Text>Mensagem:</Text>
+          <TextInput
+          value={Mensagem}
+          onChangeText={(text) => setMensagem(text)}
+          placeholder="Digite sua Mensagem"
+          style={styles.input}
+          />
+
+          <Button title="Adicionar receita" onPress={pickImage} />
           {ImagemPath && <Image source={{ uri: ImagemPath }} style={styles.ImagemPath} />}
           <Button title="Enviar" onPress={handleEnviar} />
         </View>
