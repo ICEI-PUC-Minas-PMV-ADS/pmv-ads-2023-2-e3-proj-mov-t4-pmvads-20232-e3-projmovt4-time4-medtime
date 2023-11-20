@@ -16,9 +16,9 @@ const styles = StyleSheet.create({
     backgroundColor: '#009bb6', // Cor de fundo do rodapé
     padding: 10,
     alignItems: 'center',
-    
     bottom: 0, // Coloca o rodapé na parte inferior da tela
     width: '100%', // Ocupa a largura total da tela
+    marginTop: 10,
   },
   text: {
     fontSize: 9,
