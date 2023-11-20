@@ -47,12 +47,6 @@ const Header = ({ navigation }) => {
           active={activeRouteName === 'Contatos'}
           onPress={() => navigation.navigate('Contatos')}
         />
-
-        <MenuItem
-          title="Area Logada"
-          active={activeRouteName === 'AreaLogada'}
-          onPress={() => navigation.navigate('AreaLogada')}
-        />
       </View>
     </View>
   );
