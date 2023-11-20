@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, FlatList, Linking, StyleSheet } from 'react-native';
+import { View, Text, FlatList, Linking, StyleSheet, ScrollView } from 'react-native';
 
 import Header from './Header';
 
@@ -29,7 +29,7 @@ const Novidades = ({ navigation }) => {
       .then((response) => response.json())
       .then((data) => {
         if (data.status === 'ok' && data.articles) {
-          const primeirasNoticias = data.articles.slice(0, 5);
+          const primeirasNoticias = data.articles.slice(0, 10);
           setNoticias(primeirasNoticias);
         }
       })
@@ -40,6 +40,7 @@ const Novidades = ({ navigation }) => {
     <View>
       <Header navigation={navigation} />
       <Text style={styles.titleNoticia}>Notícias sobre Medicamentos:</Text>
+      <ScrollView>
       <FlatList
         data={noticias}
         keyExtractor={(item) => item.url}
@@ -51,6 +52,7 @@ const Novidades = ({ navigation }) => {
           />
         )}
       />
+      </ScrollView>
     </View>
   );
 };
@@ -69,7 +71,6 @@ const styles = StyleSheet.create({
     padding: 10,
     borderRadius: 5,
   },
-  
   title: {
     fontSize: 16,
     fontWeight: 'bold',
@@ -77,7 +78,8 @@ const styles = StyleSheet.create({
   description: {
     fontSize: 16,
   },
-});
+
+ });
 
 export default Novidades;
 

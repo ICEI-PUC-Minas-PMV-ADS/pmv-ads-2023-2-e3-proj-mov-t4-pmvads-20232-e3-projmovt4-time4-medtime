@@ -1,21 +1,22 @@
 import React from 'react';
-import { View, Text, TouchableOpacity, Image, StyleSheet } from 'react-native';
+import { View, Text, TouchableOpacity, Image, StyleSheet, Button } from 'react-native';
+
 
 const Header = ({ navigation }) => {
   const activeRouteName = navigation.state.routeName;
+
+  const navigateToSignin = () => {
+    navigation.navigate('Signin'); 
+    };
 
   return (
     <View style={styles.header}>
       {/* Primeira linha: Botão de Login */}
       <View style={styles.loginContainer}>
-        <TouchableOpacity
-          style={styles.loginButton}
-          onPress={() => {
-            // Adicione aqui a ação que deve ocorrer ao pressionar o botão de login.
-          }}
-        >
-          <Text style={styles.loginButtonText}>Login</Text>
-        </TouchableOpacity>
+         <Button
+          title="Login"
+          onPress={navigateToSignin}
+         />
       </View>
 
       {/* Segunda linha: Logo */}
@@ -32,9 +33,9 @@ const Header = ({ navigation }) => {
           onPress={() => navigation.navigate('QuemSomos')}
         />
         <MenuItem
-          title="MedTime"
-          active={activeRouteName === 'MedTime'}
-          onPress={() => navigation.navigate('MedTime')}
+          title="MedPill"
+          active={activeRouteName === 'MedPill'}
+          onPress={() => navigation.navigate('MedPill')}
         />
         <MenuItem
           title="Novidades"
@@ -45,6 +46,12 @@ const Header = ({ navigation }) => {
           title="Contatos"
           active={activeRouteName === 'Contatos'}
           onPress={() => navigation.navigate('Contatos')}
+        />
+
+        <MenuItem
+          title="Area Logada"
+          active={activeRouteName === 'AreaLogada'}
+          onPress={() => navigation.navigate('AreaLogada')}
         />
       </View>
     </View>
@@ -96,16 +103,7 @@ const styles = StyleSheet.create({
   activeMenuText: {
     color: 'white',
   },
-  loginButton: {
-    backgroundColor: '#027c8e',
-    padding: 5,
-    marginRight: 10,
-    borderRadius: 5,
     
-  },
-  loginButtonText: {
-    color: 'white',
-  },
 });
 
 export default Header;
