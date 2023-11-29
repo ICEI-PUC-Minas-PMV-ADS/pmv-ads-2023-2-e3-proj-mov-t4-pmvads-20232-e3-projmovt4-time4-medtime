@@ -1,38 +1,8 @@
-
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
-import { createAppContainer, createSwitchNavigator } from 'react-navigation';
-import { createBrowserApp } from '@react-navigation/web';
-import { createStackNavigator } from 'react-navigation-stack';
-
-import Header from './src/components/Header';
-import QuemSomos from './src/components/QuemSomos';
-import MedTime from './src/components/MedTime';
-import Novidades from './src/components/Novidades';
-import Contatos from './src/components/Contatos';
+import { View } from 'react-native';
+import { createAppContainer } from 'react-navigation';
+import AppNavigator from './src/components/AppNavigator'; 
 import Footer from './src/components/Footer';
-
-const AppNavigator = createStackNavigator({
-  Header: {
-    screen: QuemSomos,
-    navigationOptions: {
-      header: null,
-    },
-  },
-  QuemSomos: {
-    screen: QuemSomos,
-  },
-  MedTime: {
-    screen: MedTime,
-  },
-  Novidades: {
-    screen: Novidades,
-  },
-  Contatos: {
-    screen: Contatos,
-  },
-  
-});
 
 const AppContainer = createAppContainer(AppNavigator);
 
@@ -44,6 +14,5 @@ const App = () => {
     </View>
   );
 };
-
 
 export default App;

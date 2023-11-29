@@ -6,6 +6,7 @@ import Contatos from './Contatos';
 import AreaLogada from './AreaLogada';
 import Signin from './Signin';
 import Signup from './Signup';
+import Receita from './Receita';
 
 
 const AppNavigator = createStackNavigator({
@@ -16,6 +17,8 @@ const AppNavigator = createStackNavigator({
   AreaLogada: AreaLogada,
   Signin: Signin,
   Signup: Signup,
+  Receita: Receita,
+
 });
 
 export default AppNavigator;

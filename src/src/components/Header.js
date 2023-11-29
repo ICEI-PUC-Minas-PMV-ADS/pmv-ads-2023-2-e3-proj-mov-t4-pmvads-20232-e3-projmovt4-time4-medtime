@@ -1,22 +1,24 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, Image, StyleSheet, Button } from 'react-native';
 
-
 const Header = ({ navigation }) => {
   const activeRouteName = navigation.state.routeName;
 
   const navigateToSignin = () => {
-    navigation.navigate('Signin'); 
-    };
+    navigation.navigate('Signin');
+  };
 
   return (
     <View style={styles.header}>
       {/* Primeira linha: Botão de Login */}
       <View style={styles.loginContainer}>
-         <Button
-          title="Login"
-          onPress={navigateToSignin}
-         />
+        {/* Adicionando a lógica para tornar o botão invisível na página de login */}
+        {activeRouteName !== 'Signin' && (
+          <Button
+            title="Login"
+            onPress={navigateToSignin}
+          />
+        )}
       </View>
 
       {/* Segunda linha: Logo */}
@@ -47,6 +49,12 @@ const Header = ({ navigation }) => {
           active={activeRouteName === 'Contatos'}
           onPress={() => navigation.navigate('Contatos')}
         />
+
+        <MenuItem
+          title="Area Logada"
+          active={activeRouteName === 'AreaLogada'}
+          onPress={() => navigation.navigate('AreaLogada')}
+        />
       </View>
     </View>
   );
@@ -67,14 +75,13 @@ const MenuItem = ({ title, active, onPress }) => {
 
 const styles = StyleSheet.create({
   header: {
-    flexDirection: 'column', // Alterado para layout de coluna
-    alignItems: 'center', // Centralize os elementos na coluna
+    flexDirection: 'column',
+    alignItems: 'center',
     padding: 10,
     backgroundColor: '#009bb6',
   },
   loginContainer: {
     alignSelf: 'flex-end',
-
   },
   logo: {
     width: 150,
@@ -97,7 +104,6 @@ const styles = StyleSheet.create({
   activeMenuText: {
     color: 'white',
   },
-    
 });
 
 export default Header;
