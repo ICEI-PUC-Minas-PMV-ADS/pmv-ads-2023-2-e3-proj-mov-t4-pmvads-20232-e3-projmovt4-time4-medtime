@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { View, Text, TextInput, Button, StyleSheet, ScrollView } from 'react-native';
 import Header from './Header';
 import Footer from './Footer';
@@ -11,14 +11,38 @@ const Contatos = ({ navigation }) => {
 
   // Lógica para enviar os dados do formulário.
   const handleEnviar = () => {
-    // Adicione aqui a lógica de envio de dados do formulário.
+    // Coletar dados do formulário
+    const dados = {
+      nome,
+      telefone,
+      email,
+      mensagem,
+    };
+
+    // Simular uma solicitação POST para um servidor fictício
+    fetch('https://seuservidor.com/enviar-dados', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(dados),
+    })
+      .then((response) => response.json())
+      .then((resultado) => {
+        // Lógica após o envio bem-sucedido (pode ser um redirecionamento, exibição de mensagem, etc.)
+        console.log('Dados enviados com sucesso:', resultado);
+      })
+      .catch((error) => {
+        // Lógica para lidar com erros durante o envio
+        console.error('Erro ao enviar dados:', error);
+      });
   };
 
   return (
     <View style={styles.container}>
       <Header navigation={navigation} />
       <ScrollView contentContainerStyle={styles.scrollContainer}>
-        <Text style={styles.title}>Contatos</Text>
+        <Text style={styles.title}>Contato</Text>
         <View style={styles.form}>
           <TextInput
             style={styles.input}
@@ -48,16 +72,15 @@ const Contatos = ({ navigation }) => {
         </View>
         <Text style={styles.title2}>Informações da nossa unidade:</Text>
         <Text style={styles.unidadeInfo}>
-            Unidade de Atendimento de Saúde MedTime{'\n'}
-            Endereço: Rua das Flores, 1234{'\n'}
-            Cidade: Cidade dos Remédios{'\n'}
-            Estado: Medicina{'\n'}
-            CEP: 12345-678{'\n'}
-            Telefone: (12) 3456-7890{'\n'}
-            E-mail: contato@medtime.com
+          Unidade de Atendimento de Saúde MedTime{'\n'}
+          Endereço: Rua das Flores, 1234{'\n'}
+          Cidade: Cidade dos Remédios{'\n'}
+          Estado: Medicina{'\n'}
+          CEP: 12345-678{'\n'}
+          Telefone: (12) 3456-7890{'\n'}
+          E-mail: contato@medtime.com
         </Text>
       </ScrollView>
-      
     </View>
   );
 };
@@ -89,16 +112,17 @@ const styles = StyleSheet.create({
   },
   title2: {
     fontSize: 14,
-    fontWeight: 'bold', 
-    padding: 10, 
-    marginTop: 16, 
+    fontWeight: 'bold',
+    padding: 10,
+    marginTop: 16,
   },
   unidadeInfo: {
     fontSize: 12,
-    padding: 10, 
+    padding: 10,
   },
 });
 
 export default Contatos;
+
 
 
